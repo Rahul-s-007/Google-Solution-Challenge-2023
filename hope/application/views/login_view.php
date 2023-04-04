@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
     <header>
         <div class="logo">
-            <a href="#">
+            <a href="<?php echo BASE_URL;?>">
                 <img src="<?php echo ASSETS.'images/LOGO_HOME.svg';?>" alt="" srcset="" >
             </a>
         </div>
