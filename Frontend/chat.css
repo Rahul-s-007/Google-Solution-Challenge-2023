@@ -179,6 +179,9 @@ input:focus, textarea:focus, select:focus
   pointer-events: auto;
 }
 
+.stop {
+  display: none;
+}
 
 /* ----- RESPONSIVNESS ----- */
 

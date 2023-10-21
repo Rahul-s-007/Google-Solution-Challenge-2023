@@ -90,6 +90,8 @@
             <div class="form-container">
                 <form action="#" class="typing-area">
                     <input type="text" autofocus = "True">
+                    <button onclick="toggleMic()" class="mic"><img src="/images/icons/mic.png" alt="mic"></button>
+                    <button onclick="toggleStop()" class="stop"><img src="/images/icons/stop.png" alt="stop"></button>
                     <button><ion-icon name="send-outline"></ion-icon></button>
                 </form>
             </div>
@@ -138,5 +140,21 @@
             chatBox.scrollTop = chatBox.scrollHeight;
         }
     });
+
+    function toggleMic() {
+            const micButton = document.querySelector('.mic');
+            const stopButton = document.querySelector('.stop');
+
+            micButton.style.display = 'none';
+            stopButton.style.display = 'block';
+        }
+
+        function toggleStop() {
+            const micButton = document.querySelector('.mic');
+            const stopButton = document.querySelector('.stop');
+
+            micButton.style.display = 'block';
+            stopButton.style.display = 'none';
+        }
 </script>
 </html>
