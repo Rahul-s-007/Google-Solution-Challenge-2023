@@ -1,7 +1,7 @@
 # Google-Solution-Challenge-2023
 
 
-## *The website is live at [hope-cbt.site](http://hope-cbt.site)*
+## *The website is live at [https://hope-cbt.herokuapp.com](https://hope-cbt.herokuapp.com)*
 
 ## Made using:
 * Google Cloud SQL used for Database
